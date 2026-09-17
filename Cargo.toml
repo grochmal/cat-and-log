@@ -1,0 +1,10 @@
+[package]
+name = "cat-and-log"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+actix-web = "4"
+diesel = { version = "2", features = ["sqlite", "postgres"] }
+tera = "2"
+
